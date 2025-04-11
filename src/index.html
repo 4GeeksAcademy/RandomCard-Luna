@@ -21,18 +21,25 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="bg-success position-relative">
-    <div
-      id="card"
-      class="bg-light position-absolute top-0 start-50 translate-middle-x mt-3 p-2"
-    >
-      <div id="topCornerIndex" class="bg-warning">
-        <p class="Index"></p>
-      </div>
-      <div id="bottomCornerIndex" class="bg-info">
-        <p class="Index"></p>
-      </div>
-      <div id="CenterRank"></div>
+  <body class="bg-success align-items-center">
+    <div id="card" class="bg-light position-absolute mt-3">
+      <div
+        id="topCornerIndex"
+        class="position-absolute top-0 start-0 bordesLaterales Corner"
+      ></div>
+      <div
+        id="bottomCornerIndex"
+        class="position-absolute bottom-0 end-0 bordesLaterales Corner"
+      ></div>
+      <div
+        id="centerRank"
+        class="position-absolute top-50 start-50 translate-middle "
+      ></div>
+    </div>
+    <div class="position-absolute positionButton ">
+      <button type="button" id="randomButton" class="btn btn-secondary position-absolute">
+        Click Me
+      </button>
     </div>
   </body>
 </html>
